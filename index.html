@@ -13,7 +13,20 @@
   </head>
   <body>
     <main>
+        <div>
+            <div id="major-sketch"></div>
+            <p> These notes will make you happy! </p>
+        </div>
+      <div>
+        <div id="minor-sketch"></div>
+        <p> These notes will make you sad! </p>
+      </div>
+      
     </main>
     <script src="sketch.js"></script>
+    <script>
+      new p5(majorSketch, "major-sketch");
+      new p5(minorSketch, "minor-sketch");
+    </script>
   </body>
 </html>
